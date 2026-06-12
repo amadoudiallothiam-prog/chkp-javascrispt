@@ -1,26 +1,26 @@
 //exercices 1
 
-function somme(a,b) {
+function somme( a , b ) {
     return a + b 
 }
-----------------------------------------
+//---------------------------------------
 //exercices 2
 
 function produit(a,b) {
     return a * b
 }
 
------------------------------------------
+//-----------------------------------------
 
 //exercices 3
 
-function verifier age(age) {
+function verifierage(age) {
     if (age >= 18)
         console.log("majeur")
     else
         console.log("mineur")
 }
-------------------------------------------
+
 
 //exercices 4
 
@@ -33,7 +33,7 @@ function verifierNombre(nombre) {
         console.log("Zéro");
     }
 }
----------------------------------------------
+
 // Exercices 5
 function jourDeLaSemaine(num) {
     switch (num) {
@@ -55,8 +55,8 @@ function jourDeLaSemaine(num) {
             return "Jour invalide";
     }
 }
-----------------------------------------------
-Exercices 6
+
+//Exercices 6
 function appreciation(note) {
     switch (note) {
         case "A":
@@ -68,8 +68,33 @@ function appreciation(note) {
         case "D":
             return "Insuffisant";
         default:
-            return "Note invalide";
+            return "Note invalide";} }
+
+//exercices 7
+for (let i = 0; i <= 10; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
     }
 }
-------------------------------------------------
-exercices 7
+//--------------------------------------------------
+//exercices 8
+for (let i = 1; i <= 5; i++) {
+    console.log(i);}
+//--------------------------------------------------
+//exercices 9
+let compteur = 5;
+
+while (compteur >= 1) {
+    console.log(compteur);
+    compteur--;
+}
+
+console.log("Décollage !");
+//-----------------------------------------------------
+// exercice 10
+let compteur = 1;
+
+while (compteur <= 3) {
+    console.log(compteur);
+    compteur++;
+}
